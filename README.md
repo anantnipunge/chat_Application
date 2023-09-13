@@ -30,4 +30,8 @@
 
 ## Usage
 - Clone this repository using `git clone <Repo_name>`
+- Create account on ChatEngine.io
+- Get your `Project ID` and add it the `App.js` file
+- Install required dependencies using `npm i or npm install`
+- Run your chat app using `npm start`
 
