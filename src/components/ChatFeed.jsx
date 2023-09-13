@@ -58,24 +58,26 @@ const ChatFeed = (props) => {
     });
   };
 
-  if (!chat) return <Ticker>
-  {(e) => (
-    <><h4>  Wait a while....else if there is no chat, please add new one </h4>
-     </>
-        )}
-          </Ticker>
+  if (!chat) return <Ticker mode="smooth">
+    {(e) => (
+      <>
+        <h4>  Wait a while! <br />   </h4>
+        {/* <h4>if there is no chat, please add new one  </h4> */}
+      </>
+    )}
+  </Ticker>
 
   return (
     <div className="chat-feed" >
       <div className="chat-title-container">
-        <div className= "chat-title">{chat.title}</div>
+        <div className="chat-title">{chat.title}</div>
         <div className="chat-subtitle">
           <Ticker>
-          {(e) => (
-            <>
-          <h1>{chat.people.map((person) =>`,-${person.person.username}`)}</h1>
-            </>
-        )}
+            {(e) => (
+              <>
+                <h1>{chat.people.map((person) => `,-${person.person.username}`)}</h1>
+              </>
+            )}
           </Ticker>
         </div>
       </div>

@@ -223,8 +223,11 @@
   
   .wrapper {
     height: 100vh;
-      width: 100;
-      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI6X-cs4Hz4s4--tIj_Ud3E0wHYHB8PIk-IiOF6hWPMIME1BbVWuMw0_tVLGLfnSpdD0k&usqp=CAU");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI6X-cs4Hz4s4--tIj_Ud3E0wHYHB8PIk-IiOF6hWPMIME1BbVWuMw0_tVLGLfnSpdD0k&usqp=CAU");
+    background-repeat: no-repeat;
+    height: 100;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
