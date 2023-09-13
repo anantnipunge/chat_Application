@@ -28,3 +28,6 @@
 - CSS5
 - ChatEngine.io
 
+## Usage
+- Clone this repository using `git clone <Repo_name>`
+
