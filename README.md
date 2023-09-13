@@ -29,7 +29,7 @@
 - ChatEngine.io
 
 ## Usage
-- Clone this repository using `git clone <Repo_name>`
+- Clone this repository using `git clone <Repo_link>`
 - Create account on ChatEngine.io
 - Get your `Project ID` and add it the `App.js` file
 - Install required dependencies using `npm i or npm install`
