@@ -65,9 +65,9 @@
     padding-top: 12px !important;
   }
   
-  .ce-chat-avatars-row {
+  /* .ce-chat-avatars-row {
     /* display: none !important; */
-  }
+  
   
   /* CUSTOM FEED */
   
@@ -100,6 +100,7 @@
     font-weight: 600;
     font-size: 7px;
     padding-top: 4px;
+    float:inline-start;
   }
   
   .message-row {
@@ -192,23 +193,25 @@
   }
   
   .send-button {
-    height: 42px;
+    /* height: 42px; */
+    font-size: larger;
     background-color: white;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 0px 18px;
+    border-style: none;
     cursor: pointer;
   }
   
   .send-icon {
     top: 1px;
     position: relative;
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
   }
   
   .picture-icon {
     top: 1px;
     position: relative;
-    font-size: 14px;
+    font-size: larger;
   }
   
   /* FORM STYLES */
@@ -275,6 +278,9 @@
     cursor: pointer;
     margin: 5px;
     width: 90%;
+  }
+  .error{
+    color: red;
   }
   .button span {
     cursor: pointer;

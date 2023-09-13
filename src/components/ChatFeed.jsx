@@ -17,8 +17,7 @@ const ChatFeed = (props) => {
             className="read-receipt"
             style={{
               float: isMyMessage ? "right" : "left",
-              backgroundImage:
-                person.person.avatar && `url(${person.person.avatar})`,
+              backgroundImage: person.person.avatar && `url(${person.person.avatar})`,
             }}
           />
         )
@@ -61,7 +60,7 @@ const ChatFeed = (props) => {
   if (!chat) return <Ticker mode="smooth">
     {(e) => (
       <>
-        <h4>  Wait a while! <br />   </h4>
+        <h4>  Wait a while! if there is no chat, please add new one </h4>
         {/* <h4>if there is no chat, please add new one  </h4> */}
       </>
     )}
@@ -72,10 +71,10 @@ const ChatFeed = (props) => {
       <div className="chat-title-container">
         <div className="chat-title">{chat.title}</div>
         <div className="chat-subtitle">
-          <Ticker>
+          <Ticker mode="smooth">
             {(e) => (
               <>
-                <h1>{chat.people.map((person) => `,-${person.person.username}`)}</h1>
+                <h1>{chat.people.map((person) => ` • ${person.person.username}`)}</h1>
               </>
             )}
           </Ticker>

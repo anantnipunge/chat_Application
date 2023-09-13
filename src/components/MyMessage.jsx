@@ -6,7 +6,7 @@ const MyMessage = ({ message }) => {
       <img
         src={MessageChannel.attachments[0]/*take fitst attachment */.file} //to get the source message then attachment and then file
         alt="messaage-attchment"
-        className="messaage-image"
+        className="message-image"
         style={{ float: "right" }}
       />
     );
