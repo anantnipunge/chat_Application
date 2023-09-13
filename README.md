@@ -1,6 +1,7 @@
 # Realtime web chat app
 - Let's chat with friends in a group.
 - Send photos and text messages.
+- See online and offline users
 - Delete the chat any time you want.
   
 ## Some Images
