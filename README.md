@@ -29,7 +29,7 @@
 
 ## Tech Stack Used
 - React.js
-- Ant-Design
+- Ant Design
 - CSS5
 - ChatEngine.io
 
