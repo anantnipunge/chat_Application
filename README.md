@@ -2,7 +2,7 @@
 - Let's chat with friends in a group.
 - Send photos and text messages.
 - Delete the chat any time you want.
-- 
+  
 ## Some Images
 
 #### Chat feed
