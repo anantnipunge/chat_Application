@@ -5,7 +5,7 @@
   
 ## Some Images
 
-#### Chat feed
+#### **Chat feed**
 
 ![image](https://github.com/anantnipunge/chat_Application/assets/82041920/036d3a95-dd34-4a28-8d11-4437b8c78ebe)
 
