@@ -27,7 +27,6 @@
 ![image](https://github.com/anantnipunge/chat_Application/assets/82041920/8be260e2-14ed-491f-be6b-ef90337e393a)
 
 
-
 ## Tech Stack Used
 - React.js
 - Ant Design
